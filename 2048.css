@@ -71,7 +71,7 @@ p{
 	position:absolute;
 	width:300px;height:200px;
 	/*笔试题 如何用css把div在文档显示居中*/
-	top:50%;left:50%;
+	top:40%;left:40%;
 	margin-top:-100px; margin-left:-150px;
 	border:1px solid #edf72;
 	border-radius:15px;
