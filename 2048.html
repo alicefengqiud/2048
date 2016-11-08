@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="2048.css"/>
+ </head>
+ <body>
+  <p>
+    Top:<span id="top">0</span><br>
+    Score:<span id="score">0</span>
+  </p>
+  <div id="gridPanel"> 
+  </div>
+  <div id="gameOver">
+    <div></div>
+    <p>
+      Game Over<br>
+      Score:<span id="fScore">0</span><br>
+      <a class="btn" onclick="game.start()">Try again</a>
+    </p>
+  </div>
+  <script src="2048.js"></script>
+ </body>
+</html>
